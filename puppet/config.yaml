@@ -9,7 +9,10 @@ arch:
   - amd64
 ports:
   10000/tcp: 10000
+ha_url:
+  home_assistant_url: "http://localhost:8123"
 options:
   access_token: ""
 schema:
+  home_assistant_url: str
   access_token: str
